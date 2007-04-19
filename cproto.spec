@@ -1,7 +1,7 @@
 %define	name	cproto
-%define	version	4.7c
+%define	version	4.7e
 %{expand:%%define o_ver %(echo %{version}| sed "s#\.#_#g")}
-%define release	1mdk
+%define release %mkrel 1
 
 Summary:	Generates function prototypes and variable declarations from C code.
 Name:		%{name}
