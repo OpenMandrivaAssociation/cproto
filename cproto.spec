@@ -3,7 +3,7 @@
 %{expand:%%define o_ver %(echo %{version}| sed "s#\.#_#g")}
 %define release %mkrel 1
 
-Summary:	Generates function prototypes and variable declarations from C code.
+Summary:	Generates function prototypes and variable declarations from C code
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
