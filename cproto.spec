@@ -12,7 +12,6 @@ Group:		Development/C
 Url:		http://sourceforge.net/projects/cproto/
 Source0:	ftp://invisible-island.net/cproto/%{name}-%{o_ver}.tar.bz2
 BuildRequires:	byacc flex
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Cproto generates function prototypes and variable declarations from
