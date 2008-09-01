@@ -1,7 +1,6 @@
 %define	name	cproto
-%define	version	4.7e
-%{expand:%%define o_ver %(echo %{version}| sed "s#\.#_#g")}
-%define release %mkrel 3
+%define	version	4.7f
+%define release %mkrel 1
 
 Summary:	Generates function prototypes and variable declarations from C code
 Name:		%{name}
@@ -10,7 +9,7 @@ Release:	%{release}
 License:	Public Domain
 Group:		Development/C
 Url:		http://sourceforge.net/projects/cproto/
-Source0:	ftp://invisible-island.net/cproto/%{name}-%{o_ver}.tar.bz2
+Source0:	ftp://invisible-island.net/cproto/%{name}-%{version}.tgz
 BuildRequires:	byacc flex
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -27,7 +26,7 @@ Cproto will be useful for C programmers, so install cproto if you are going
 to do any C programming.
 
 %prep
-%setup -q -n %{name}-%{o_ver}
+%setup -q
 
 %build
 %configure --exec-prefix=%{_prefix}
