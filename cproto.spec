@@ -29,7 +29,7 @@ to do any C programming.
 %setup -q
 
 %build
-%configure --exec-prefix=%{_prefix}
+%configure2_5x
 %make
 
 %install
