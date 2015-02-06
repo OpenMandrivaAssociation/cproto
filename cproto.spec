@@ -1,6 +1,6 @@
 %define	name	cproto
 %define	version	4.7g
-%define release %mkrel 1
+%define release 2
 
 Summary:	Generates function prototypes and variable declarations from C code
 Name:		%{name}
