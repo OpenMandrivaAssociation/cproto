@@ -1,11 +1,11 @@
 Summary:	Generates function prototypes and variable declarations from C code
 Name:		cproto
-Version:	4.7l
-Release:	3
+Version:	4.7r
+Release:	1
 License:	Public Domain
 Group:		Development/C
 Url:		http://invisible-island.net/cproto/
-Source0:	ftp://invisible-island.net/cproto/%{name}-%{version}.tgz
+Source0:	https://invisible-island.net/datafiles/release/%{name}.tar.gz
 BuildRequires:	byacc
 BuildRequires:	flex
 
@@ -23,14 +23,14 @@ Cproto will be useful for C programmers, so install cproto if you are going
 to do any C programming.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall
+%make_install
 
 
 %files
