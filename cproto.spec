@@ -4,7 +4,7 @@ Version:	4.7r
 Release:	1
 License:	Public Domain
 Group:		Development/C
-Url:		http://invisible-island.net/cproto/
+Url:		https://invisible-island.net/cproto/
 Source0:	https://invisible-island.net/datafiles/release/%{name}.tar.gz
 BuildRequires:	byacc
 BuildRequires:	flex
