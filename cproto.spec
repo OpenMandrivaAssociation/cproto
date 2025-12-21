@@ -6,6 +6,11 @@ License:	Public Domain
 Group:		Development/C
 Url:		https://invisible-island.net/cproto/
 Source0:	https://invisible-island.net/datafiles/release/%{name}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	byacc
 BuildRequires:	flex
 
