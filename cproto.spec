@@ -1,6 +1,6 @@
 Summary:	Generates function prototypes and variable declarations from C code
 Name:		cproto
-Version:	4.7r
+Version:	4.8a
 Release:	1
 License:	Public Domain
 Group:		Development/C
